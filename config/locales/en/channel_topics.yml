@@ -1,0 +1,15 @@
+en:
+  channel_topics:
+    participant:
+      remove_self:
+        success: "We've removed you from from this chat."
+    channel:
+      start:
+        error: "We're having trouble figuring out who you're trying to chat with. If you want to see who you can chat with you can get a list of people by texting\n
+          #list\n
+          \n
+          and a list of groups by texting\n
+          #list groups"
+        success:
+          included_header_addendum: 🆕
+          sender_header_addendum: ❮New Thread❯

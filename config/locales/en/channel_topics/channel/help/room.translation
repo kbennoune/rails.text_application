@@ -1,0 +1,13 @@
+🗨️ CHAT
+All of your texts, besides # requests, will go to everyone in the group. If you want to see who is in the group you can text #{bold('#list')}:
+sms:%{channel_phone_number}?body=#list
+
+You can leave the group by texting #{bold('#leave')}:
+sms:%{channel_phone_number}?body=#leave
+
+---
+
+🇪🇸 ¿HABLA ESPAÑOL?
+
+Texto #{bold '#español'} si desea que todos sus mensajes sean traducidos.
+sms:%{channel_phone_number}?body=#español

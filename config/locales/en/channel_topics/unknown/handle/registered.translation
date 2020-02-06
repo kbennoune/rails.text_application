@@ -1,0 +1,7 @@
+⁉️ We're not sure what to do with your last message.
+Can you double check it to see if you made any mistakes?
+
+Remember, you can always get help by texting:
+#{bold('#help')}
+
+sms:%{channel_phone_number}?body=#help

@@ -1,0 +1,71 @@
+ℹ️ HELP
+This is a quick rundown of all the things you can do with your chat service.
+
+---
+
+💬 CHAT
+You can start a chat by using one of your permanent chat numbers:
+
+%{room_channels_and_numbers}
+
+You can also start a custom chat with people or groups by texting their name with an @ along with a message.
+
+#{bold('@managers @joansm Hello!')}
+sms:%{root_phone_number}?body=@
+
+---
+
+👥 GROUPS
+Chatting is easiest when you to set up groups. Text #{bold('#add')} with the members names. Here's an example:
+
+#{bold('#add Joan Smith and @fred to managers')}
+sms:%{root_phone_number}?body=#add·
+
+Remove people by texting #{bold('#remove')} with the names of those you would like to remove:
+
+#{bold('#remove @fred @joansmith and @jaime')}
+sms:%{root_phone_number}?body=#remove·
+
+List all of the groups:
+
+#{bold('#list groups')}
+sms:%{root_phone_number}?body=#list·groups·
+
+List the members of a group:
+
+#{bold('#list managers')}
+sms:%{root_phone_number}?body=#list·
+
+---
+
+📨 INVITES
+If you want someone to join, text #{bold('#invite')} to get a code
+
+#{bold('#invite')}
+sms:%{root_phone_number}?body=#invite·
+
+If you would like them added to a group
+
+#{bold('#invite to managers and front of the house')}
+sms:%{root_phone_number}?body=#invite·to·
+
+---
+
+🗣️ PEOPLE
+You can list all the members of your chat group by texting:
+
+#{bold('#list')}
+sms:%{root_phone_number}?body=#list
+
+---
+
+🇪🇸🇬🇧 TRANSLATION
+If you'd like to have all your messages translated to Spanish text:
+
+#{bold '#Espanol'}
+sms:%{root_phone_number}?body=#espanol
+
+Change back to English with
+
+#{bold '#English'}
+sms:%{root_phone_number}?body=#english

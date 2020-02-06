@@ -1,0 +1,3 @@
+Hey, this is %{ sender }. I'd like to add you to %{ business_name }'s texting group.
+
+Accept by responding #{ bold 'YES' }. If you don't want to join, you can ignore the message or respond with #{ bold 'NO' }.

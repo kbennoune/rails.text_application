@@ -1,0 +1,7 @@
+💬 %{sender} is asking a question
+
+%{message}
+
+---
+
+Responses will be sent to %{sender} only

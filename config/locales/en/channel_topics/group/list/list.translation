@@ -1,0 +1,5 @@
+%{business_name}'s groups:
+
+%{groups_and_number_links}
+
+#{italic 'Start a chat by clicking on the link or text #chat group-name to'} %{root_phone_number}.

@@ -1,0 +1,10 @@
+Welcome to %{business_name}'s texting group. Save the included contacts to make it easier to text.
+
+💬 CHAT
+There are a couple ways you can chat with your coworkers.
+▸ %{permanent_rooms_section}
+▸ You can text anyone directly by sending a text to the Main %{business_name} phone number (sms:%{root_phone_number}) starting with a mention for them (like %{example_contacts}).
+
+🇪🇸 ¿HABLA ESPAÑOL?
+Texto #{bold '#español'} si desea que todos sus mensajes sean traducidos.
+sms:%{root_phone_number}?body=#español

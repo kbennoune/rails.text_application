@@ -1,0 +1,2 @@
+Hemos configurado tu idioma en %{language}. Si quiere volver atrás, envíe un mensaje de texto:
+%{revert_command}

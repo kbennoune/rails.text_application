@@ -1,0 +1,3 @@
+Su idioma ya está configurado en %{language}, los idiomas disponibles son:
+#{bold '#español'}
+#{bold '#english'}

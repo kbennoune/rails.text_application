@@ -1,0 +1,6 @@
+❓ We couldn't figure out which people you're trying to add to %{groups}.
+For a list of people, text:
+
+#{bold '#list'}
+
+sms:%{channel_phone_number}?body=#list

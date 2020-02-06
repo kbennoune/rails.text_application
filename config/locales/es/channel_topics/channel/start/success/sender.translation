@@ -1,0 +1,5 @@
+Empezaste con \"%{message}\"
+
+❮%{people}❯
+Responder #STOP para darse de baja
+Responda #ADD con una mención (@nombre) para incluir a otra persona

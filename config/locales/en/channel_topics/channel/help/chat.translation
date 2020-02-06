@@ -1,0 +1,32 @@
+🗨️ CHAT
+All of your messages, except for any commands, will go to all of the members
+
+You can remove yourself from the chat by texting
+
+#{bold('#stop')}
+sms:%{channel_phone_number}?body=#stop
+
+---
+
+👥 MANAGE PEOPLE
+Add more people or groups by texting #{bold('#add')} along with their names
+
+#{bold('#add @nameone, name two, and group three')}
+sms:%{channel_phone_number}?body=#add·
+
+Remove people by texting #{bold('#remove')} with their names
+
+#{bold('#remove @nameone, name two, and group three')}
+sms:%{channel_phone_number}?body=#remove·
+
+You can see everyone who is a member:
+
+#{bold('#list')}
+sms:%{root_phone_number}?body=#list
+
+---
+
+🇪🇸 ¿HABLA ESPAÑOL?
+
+Texto #{bold '#español'} si desea que todos sus mensajes sean traducidos.
+sms:%{channel_phone_number}?body=#español

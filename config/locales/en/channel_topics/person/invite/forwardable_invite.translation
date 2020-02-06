@@ -1,0 +1,15 @@
+INVITE
+I'd like you to join %{business_name}'s texting group.
+
+🏁 SIGN UP LINK (add your name to the text)
+sms://%{app_phone_number_for_url}?body=%{code}%0A%0AAdd·your·name%0A@%3E
+
+---
+
+🆘 #{italic("If the link doesn't work, send a text to")} %{app_phone_number}. #{italic('Include')} \"%{code}\" #{italic('and your name following an')} @.
+
+It should look like this:
+%{italicized_code}
+#{italic '@ Rosa Chan'}
+
+Thanks!

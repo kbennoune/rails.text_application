@@ -1,0 +1,21 @@
+I've signed you up for %{business_name}'s group text service.
+
+#{bold 'HOW IT WORKS'}
+You can use this number, %{formatted_root_phone_number} to communicate with everyone.
+
+💬Start threads by mentioning people or groups.
+══════
+%{included_mentions} #{italic 'Welcome to Text Herd!'}
+══════
+
+
+ℹ️ Get a list of all the other things you can do.
+══════
+#{italic '#help'}
+══════
+
+
+🇪🇸 Traduce todos tus mensajes al español.
+══════
+#{italic '#espanol'}
+══════

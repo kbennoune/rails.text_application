@@ -1,0 +1,6 @@
+%{message}
+
+⧼%{people}⧽
+Reply to this number to continue chatting.
+#STOP will unsubscribe.
+#ADD with a @mention will include another person.

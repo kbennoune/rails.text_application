@@ -1,0 +1,6 @@
+❓ We couldn't find any group that matched.
+For a list of groups, text:
+
+#{bold '#list groups'}
+
+sms:%{channel_phone_number}?body=#list·groups

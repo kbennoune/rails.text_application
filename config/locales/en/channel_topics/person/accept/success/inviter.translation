@@ -1,0 +1,7 @@
+✅ %{person_name} (%{mention_code}) joined!
+
+Add them to a group by texting:
+
+#{bold '#add'} %{mention_code} #{bold 'to'} #{bold_italic 'group-name'}
+
+sms:%{channel_phone_number}?body=#add·%{escaped_mention_code}·to·

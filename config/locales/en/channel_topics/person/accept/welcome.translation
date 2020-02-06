@@ -1,0 +1,13 @@
+Welcome to %{application_name}, %{person_name}. Save the contact file to keep in touch with “%{business_name}.”
+
+💬 CHAT
+%{permanent_chat_section}%{chat_explanation}%{important_links_section}
+ℹ️ HELP
+Text #{bold('#help')} to get more information about everything you can do.
+sms:%{channel_phone_number}?body=#help
+
+🇪🇸 ¿HABLA ESPAÑOL?
+Texto #{bold '#español'} si desea que todos sus mensajes sean traducidos.
+sms:%{channel_phone_number}?body=#español
+
+Thanks for trying this out!

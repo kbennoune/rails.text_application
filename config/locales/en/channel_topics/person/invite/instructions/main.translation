@@ -1,0 +1,8 @@
+📲 TEXT LINK
+Click the link and send the message to your employees. They'll be added %{group_text} when they click the link.
+%{invite_link}
+
+This invite expires on %{code_expiration}. For an up to date code, text #{bold('#invite')}:
+%{refresh_link}
+
+If the link doesn't work, ask them to text %{code} to this number.

@@ -1,0 +1,12 @@
+<%#= link_to 'click', application_phone_number.number, scheme: :sms, host: nil, body: body_param %>
+<a style='font-size: 80px;' id='sms-link' href='sms:<%= application_phone_number.number.to_s(:url)%><%= os_separator %>body=<%= Addressable::URI.encode_component(body_param,/\W/) %>'>
+  <%= call_to_action %>
+</a>
+
+<!--
+<div style="font-size: 20px; margin-top: 40px; width: 300px; overflow: visible;">
+  <p style='padding: 0.25em;'>If there isn't any text in your message app, copy and paste the following into the body and complete the directions.</p>
+
+  <div style='margin-top: 20px; padding: 0.25em; white-space: pre; border: 1px solid black;'><%= body_param.strip %></div>
+</div>
+-->
